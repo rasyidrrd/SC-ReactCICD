@@ -26,6 +26,6 @@ jobs:
 
       - name: Deploy to Firebase
         run: |
-          npx firebase deploy --token "$1//0goZZgoj8dj8zCgYIARAAGBASNwF-L9IrnzkG5-OJsLbBGb9F5_8jkA1wTaExTCNnY0v34iGWqJNndu00wKINyGqRXjwwMCICeLs"
+          npx firebase deploy --token "$0goZZgoj8dj8zCgYIARAAGBASNwF-L9IrnzkG5-OJsLbBGb9F5_8jkA1wTaExTCNnY0v34iGWqJNndu00wKINyGqRXjwwMCICeLs"
         env:
-          FIREBASE_TOKEN: ${{ secrets.1//0goZZgoj8dj8zCgYIARAAGBASNwF-L9IrnzkG5-OJsLbBGb9F5_8jkA1wTaExTCNnY0v34iGWqJNndu00wKINyGqRXjwwMCICeLs }}
+          FIREBASE_TOKEN: ${{ secrets.0goZZgoj8dj8zCgYIARAAGBASNwF-L9IrnzkG5-OJsLbBGb9F5_8jkA1wTaExTCNnY0v34iGWqJNndu00wKINyGqRXjwwMCICeLs }}
